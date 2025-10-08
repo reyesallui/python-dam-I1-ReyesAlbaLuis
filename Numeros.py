@@ -1,3 +1,5 @@
+#Escribe un programa que pida una lista de números separados por comas y que los convierta en floats, calcule la suma,media y el maxímo y que detecte duplicados hazmelo en python y explicamelo de la manera mas simple posible
+
 entrada = input("Escribe el numero separados por comas:")
 #Split corta el texto donde hay comas 
 numeros_texto = entrada.split(",")
