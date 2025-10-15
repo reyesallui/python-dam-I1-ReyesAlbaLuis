@@ -1,0 +1,49 @@
+Hazme este ejercicio de la manera mas sencilla posible S3 (01/10): instalación + primeros scripts (hola.py, perfil.py, eco_io.py) +
+S3_prompts.txt + primer push a Git.
+o hola.py: print("Hola, DAM2") ejecutado desde visual code
+o perfil.py:
+ Pedir nombre + año nacimiento
+ Calcular edad
+ Clasificar por tramo (<18, 18–65, >65)
+ Manejo de error si no mete número
+ Comentarios
+o eco_io.py:
+ Pedir 3 números
+ Mostrar suma, media y mayor
+ Adaptación libre
+ Guardar en S3_prompts.txt → prompt + explicación + adaptación
+
+
+Hazme estos ejercicios de la manera mas simple posible y explicamelo S4 (08/10): variables, tipos y operadores, comentarios, documentación y
+depuración
+
+o lista_numeros.py: pedir lista de números separados por comas,
+convertirlos a float con control de errores y mostrar la suma, la media, el
+máximo y los duplicados
+o temperaturas.py: conversor de temperaturas de grados a kelvin o a
+farenheit
+o cadenas.py: un programa que reciba una cadena y cuente las vocales que
+tiene, las consonantes, las mayúsculas y el número de caracteres
+o primo.py: un programa que reciba un número y nos diga si es primo o no
+
+
+
+Hazme estos ejercicios y explicame S5 (15/10): entrega final en Classroom + defensa breve en clase.
+o Crea un programa llamado analisis_notas.py que pida al usuario una
+lista de calificaciones separadas por comas
+(ejemplo: 6.5, 8, 5, 4, 9, 10, 7, 3)
+y muestre un resumen estadístico similar al de un boletín de aula:
+ Número total de notas.
+ Media, nota mínima y máxima.
+ Porcentaje de aprobados (≥5) y de sobresalientes (≥9).
+ Nota más repetida (moda) — si hay empate, muestra todas.
+ Mensaje final:
+ “Nivel excelente” si la media ≥ 8
+ “Nivel medio” si la media está entre 5 y 7.9
+ “Necesita refuerzo” si la media < 5
+
+� Requisitos técnicos:
+ Validar que todos los valores sean numéricos (try/except).
+ Redondear la media a 2 decimales.
+ Mostrar resultados formateados con f-strings.
+ Comentarios explicativos.
